@@ -1,0 +1,28 @@
+body {
+	background-color: linen;
+	margin: auto;
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+	width: 960px;
+	border: 6px solid #ec9;
+}
+
+h1 {
+	margin-top: 40px;
+	font-size: 34px;
+	font-style: italic;
+	font-weight: bold;
+	color: navy;
+}
+
+#searchLabel {
+	padding: 15px;
+	font-size: 20px;
+}
+
+#searchTerms {
+	margin-top: 40px;
+}
