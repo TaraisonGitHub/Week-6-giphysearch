@@ -1,21 +1,12 @@
 body {
-	background-color: linen;
+	background-color: red;
 	margin: auto;
 	text-align: center;
-	font-family: 'Times New Roman', Times, serif;
 }
 
 .container {
 	width: 960px;
 	border: 6px solid #ec9;
-}
-
-h1 {
-	margin-top: 40px;
-	font-size: 34px;
-	font-style: italic;
-	font-weight: bold;
-	color: navy;
 }
 
 #searchLabel {
@@ -25,4 +16,24 @@ h1 {
 
 #searchTerms {
 	margin-top: 40px;
+}
+
+h1 {
+
+	font-family: 'Shrikhand', cursive;
+	font-size: 36px;
+	color: #fff;
+  	letter-spacing: 0.05em;
+  	padding: 0.5em;
+	font-size: 28px;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+button {
+	padding: 15px;
+	background-color: #fff;
+	color: #000;
+	font-family: 'Shrikhand', cursive;
+	font-size: 15px;
+	color: #000;
 }

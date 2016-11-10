@@ -30,7 +30,7 @@ function myButton () {
 		createButton.addClass('movie'); // Added a class 
 		createButton.attr('data-name', topics[i]); // Added a data-attribute
 		createButton.text(topics[i]); // Provided the initial button text
-		$('#searchTerms').append(createButton); // Added the button to the HTML
+		$('#searchTerms').prepend(createButton); // Added the button to the HTML
 		
 	}
 }
@@ -65,7 +65,7 @@ myButton();
 		var newTopicWord = $(this).attr('data-name');
 		
 		$.ajax({url: "http://api.giphy.com/v1/gifs/search?q=" + newTopicWord + " &api_key=dc6zaTOxFJmzC&limit=10", method: 'GET'}).done(function(response) {
-		
+
 		var gifLink = response.data[0].images.fixed_height.url
 		var gifLink1 = response.data[1].images.fixed_height.url
 		var gifLink2 = response.data[2].images.fixed_height.url
